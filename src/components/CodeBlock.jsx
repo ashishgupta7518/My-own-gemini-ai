@@ -12,9 +12,10 @@ const CodeBlock = ({ code }) => {
         setTimeout(() => setCopied(false), 1500)
     }
     return (
+        
         <>
 
-            <div className="relative bg-zinc-800 text-green-300 p-4 rounded-xl overflow-x-auto">
+            <div className="relative bg-zinc-800 text-pink-600 p-4 rounded-xl overflow-x-auto">
                 <button
                     onClick={handleCopy}
                     className="absolute top-2 right-2 text-xs text-white"
